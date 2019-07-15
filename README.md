@@ -35,6 +35,14 @@ usage: options
 
 1.Add dependency into POM.xml or build.gradle
 
+```xml
+<dependency>
+  <groupId>org.riversun</groupId>
+  <artifactId>random-forest-codegen</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
 2.Write your java code
 
 ```java
