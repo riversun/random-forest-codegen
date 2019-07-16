@@ -112,6 +112,45 @@ sepallength,sepalwidth,petallength,petalwidth,class
 === End of sample ===
 ```
 
+## How to get "Model file".
+
+You can get the learned Random Forest model from Weka.
+
+### Let's learn and get Model file
+
+1.Start Weka
+
+2.Select **Preprocess** Tab and open ARFF file you want to learn.
+Generally,ARFF files are in the **[WEKA_INSTALL_DIR]/data**
+
+![image](https://user-images.githubusercontent.com/11747460/61270496-d2a23400-a7dc-11e9-91d1-06157bb5e460.png)
+
+3.Select **Classify** Tab and **Choose**  the **Random Foreset** algorithm in the **tree** list.
+![image](https://user-images.githubusercontent.com/11747460/61270540-f2395c80-a7dc-11e9-9fcb-00d0423f61f0.png)
+
+![image](https://user-images.githubusercontent.com/11747460/61270566-05e4c300-a7dd-11e9-8b33-823b3efb9ebc.png)
+
+4.Click here to open edit menu of **Random Forest** classifier.
+![image](https://user-images.githubusercontent.com/11747460/61271118-a8517600-a7de-11e9-92f1-21fad13331c3.png)
+
+5.Enable **printClassifiers** on edit menu.
+![image](https://user-images.githubusercontent.com/11747460/61271033-6f190600-a7de-11e9-8b00-5002b0e7ba88.png)
+
+
+6.Press **Start** to start learning.
+
+![image](https://user-images.githubusercontent.com/11747460/61270828-c4a0e300-a7dd-11e9-9611-625225859d6d.png)
+
+7.Learning result comes out when learning is finished.
+
+![image](https://user-images.githubusercontent.com/11747460/61270838-ccf91e00-a7dd-11e9-917d-b7264b62e1b9.png)
+
+7. 7-1Right click on Result list and 7-2.Select "Save result buffer" on the context menu and save file like **model.txt**
+![image](https://user-images.githubusercontent.com/11747460/61270985-37aa5980-a7de-11e9-9b6a-4f24871e8c35.png)
+
+8.Ok,You can get the Model file **model.txt**
+
+
 # Example of Generated Source code
 
 The generated source code is shown below.
